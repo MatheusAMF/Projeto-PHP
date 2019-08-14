@@ -11,5 +11,6 @@ Foi utilizado de maneira experimental a biblioteca SSH2. O usuário irá digitar
 # Criptografia
 São três tipos de criptografia: Cifra de César, AES256 com SALT e IDEA, utilizando OpenSSL. Nessa tela é possível criptografar ou descriptografar um texto com a opção de utilizar um SALT. 
 E está disponível um protótipo utilizando AJAX, ainda com alguns BUGS, mas é possível testar.
-Comparação de Hashes
+
+# Comparação de Hashes
 O usuário digita um texto, e é feito uma comparação em três hashs: SHA512, HMAC e Haval160,4. Além disso também é possível digitar um quarto tipo de hash, com isso o sistema irá comparar todos, dizendo se esse hash é igual ou diferente de ambos.
